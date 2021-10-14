@@ -55,12 +55,12 @@ function EmailList() {
 
       <div className="emaillist_section">
         <Section Icon={InboxIcon} title="Primary" color="red" selected={true} />
-        <Section Icon={People} title="Social" color="#1A73E8" selected={true} />
+        <Section Icon={People} title="Social" color="#1A73E8" selected={false} />
         <Section
           Icon={LocalOffer}
           title="Promotions"
           color="green"
-          selected={true}
+          selected={false}
         />
       </div>
     </div>
